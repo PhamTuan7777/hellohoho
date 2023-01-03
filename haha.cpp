@@ -9,6 +9,11 @@ int main()
     cout << "nhap so luong phan tu: ";
     cin >> a;
     cout << "so luong phan tu cua mang la: " << a;
+    for(int i = 0; i < a; i++)
+    {
+        cout << "phan tu so " << i << "la: ";
+        cout << b[i];
+    }
     system("pause");
     return 0;
 }
